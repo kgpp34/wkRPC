@@ -1,4 +1,4 @@
-package serializer
+package serialization
 
 type Serializer interface {
 	Unmarshal(data []byte, message interface{}) error
